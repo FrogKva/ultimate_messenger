@@ -5,9 +5,9 @@ const
     IO = require('socket.io')
 
  io = require('socket.io')(server)
-server.listen(3000)
-
-app.get('/', (next,context) => {
+server.listen (8080)
+  
+app.get('/', (next,context) => { 
 context.sendFile(__dirname + '/index.html');
 
 })
