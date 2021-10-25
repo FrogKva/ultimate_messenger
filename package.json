@@ -1,0 +1,27 @@
+{
+  "name": "ultimate_messenger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrogKva/ultimate_messenger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrogKva/ultimate_messenger/issues"
+  },
+  "homepage": "https://github.com/FrogKva/ultimate_messenger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket-io": "^1.0.0"
+  }
+}
